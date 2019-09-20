@@ -1,0 +1,119 @@
+
+/* Index */
+
+h1 {
+	text-align: center;
+	color: red;
+    font-size: 40px;
+}
+
+/* Bakgrundsfärg */
+
+body {
+	
+	background-color: grey;
+	background-image: url("https://images4.alphacoders.com/600/thumb-1920-600528.png");
+
+}
+
+/* Stylad text */
+
+nav ul {
+	list-style-type: none;
+	color: red;
+    margin: 0;	
+    padding: 0;
+	overflow: hidden;
+	float: center;
+}
+
+/* Postition på linkad text */
+
+nav li{
+	float: center;
+	text-align: center;
+    
+
+}
+
+/* Link text */
+
+nav li a {
+	display:block;
+	text-decoration: none;
+	padding: 15px;
+	float: center;
+	font-size: 35px;
+	color: grey;
+	font-family:"Impact", Charcoal, sans-serif;
+	
+}
+
+/* Min Animation */
+
+/*.box {
+	width: 1920px;
+	height: 1080px;
+	position: relative;
+    animation-name: myanimation;
+	animation-duration: 7s;
+	animation-iteration-count:infinite;
+	opacity: 0.5;
+
+}
+*/
+
+@keyframes myanimation {
+	
+     0% {background-color: white;}
+     25% {background-color: orange;}
+	 50% {background-color: blue;}
+	 75% {background-color: yellow;}
+	 100% {background-color: purple;}	
+     	 
+}
+
+/* Cirkel border */
+
+.circle {
+    margin: auto;
+	border: red;
+    background-color: blue;
+    height: 200px;
+    border-radius:75px;
+    border-radius: 75px;
+    width: 600px;
+	float: center;
+
+}
+/* League of legends bild */
+
+img {
+	margin: center;
+	width: 1920px;
+	height: 650px;
+	opacity: 0.5;
+	
+}
+
+
+
+
+
+
+/* CHAMPIONS */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
